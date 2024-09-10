@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Kalam", cursive;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+.logo{
+    width:150px;
+    border-radius: 100px;
+    margin-top: 10px;
+}
+.listitems{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+}
+.links{
+    text-decoration: none;
+    color: rgb(70, 69, 69);
+    font-weight: 600;
+    
+}
+.links:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+.homecontent{
+    margin: 13% 0px 0px 8%;
+}
+#username{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#iname{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+#userdetails{
+    line-height: 1.2;
+}
+#Download{
+    text-decoration: none;
+    background-color: black;
+    color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.homeimages{
+    width: 45%;
+    height: 65%;
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+}
+.group1{
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 45%;
+    transform: translateX('45%');
+    transition: bottom 2s, left 1s;
+}
+.homeimages:hover #shape{
+    bottom:70px;
+}
+.homeimages:hover #girl{
+    left:40%;
+}
+#anout{
+    margin: 15% 8% 0px 8%;
+}
+.sectionHead{
+    text-align: center;
+    margin-top: 15%;
+}
+.mainHead{
+    font-size: 30px;
+}
+.subHead{
+    font-size: 20px;
+    color: rgb(97, 129, 49);
+}
+.aboutBody{
+ margin-top: 20px;
+ display: grid;
+ grid-template-columns: 1fr 1fr ;
+ align-items: center;
+
+}
+.img1{
+    width: 80%;
+    border-radius: 20px;
+    margin: 20px;
+}
+.aboutContent{
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(19, 19, 34);
+    margin-right: 20px;
+}
+.informations{
+    margin-top: 1.3rem;
+}
+.infoBox{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+}
+.infoBox>span{
+    margin-left: 1rem;
+}
+#skill{
+    margin: 8% 8% 0px 8%;
+}
+.skillContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.mySkill{
+    width: 80%;
+    border-radius: 15px;
+}
